@@ -6,6 +6,14 @@ public class Book {
     public String[] Author;
     public double price;
 
+    public Book(String s, int i, String[] strings, double v) {
+        this.name = name;
+        this.pages = pages;
+        this.Author = Author;
+        this.price = price;
+    }
+
+
     @Override
     public String toString() {
         return "Book{" +
@@ -14,5 +22,8 @@ public class Book {
                 ", Author=" + Arrays.toString(Author) +
                 ", price=" + price +
                 '}';
+    }
+
+    public Book() {
     }
 }
