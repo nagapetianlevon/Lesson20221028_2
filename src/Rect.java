@@ -2,8 +2,18 @@ public class Rect {
     public int width;
     public int height;
 
-    public double getArea(){
-        return width*height;
+
+    public Rect() {
+    }
+
+    public Rect(int i, int i1) {
+        this.width = i;
+        this.height = i1;
+    }
+
+    public double getDifArea(int w, int h){
+
+        return this.width * this.height - w*h;
     }
     public double getPerimeter()
     {

@@ -30,7 +30,10 @@ public class MyProgram {
         rect2.printArea();
         System.out.println(rect2.getPerimeter());
         System.out.println(rect);
+        System.out.println(rect2);
+        Rect rect4 = new Rect(8, 8);
 
+        System.out.println(rect4.getDifArea(4, 4));
     }
 
 }
